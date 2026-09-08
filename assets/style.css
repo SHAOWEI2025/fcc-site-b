@@ -1,0 +1,214 @@
+/* ============== Fonts: Source Sans Pro (fcc.gov/USWDS) ============== */
+@font-face{font-family:"Source Sans Pro";src:url("fonts/source-sans-pro-latin-400-normal.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap}
+@font-face{font-family:"Source Sans Pro";src:url("fonts/source-sans-pro-latin-400-italic.woff2") format("woff2");font-weight:400;font-style:italic;font-display:swap}
+@font-face{font-family:"Source Sans Pro";src:url("fonts/source-sans-pro-latin-600-normal.woff2") format("woff2");font-weight:600;font-style:normal;font-display:swap}
+@font-face{font-family:"Source Sans Pro";src:url("fonts/source-sans-pro-latin-700-normal.woff2") format("woff2");font-weight:700;font-style:normal;font-display:swap}
+
+/* ============== Reset & Base ============== */
+*,*::before,*::after{box-sizing:border-box}
+html,body{margin:0;padding:0}
+body{
+  font-family:"Source Sans Pro","Open Sans","Helvetica Neue",Arial,sans-serif;
+  font-size:15px;
+  line-height:1.5;
+  color:#333;
+  background:#fff;
+}
+a{color:#0073e6;text-decoration:none}
+a:hover{text-decoration:underline}
+img,svg{display:block;max-width:100%}
+button{font:inherit;cursor:pointer}
+.container{max-width:1140px;margin:0 auto;padding:0 24px}
+.visually-hidden{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+
+/* ============== Header ============== */
+.fcc-header{background:linear-gradient(180deg,#001a4d 0%,#0a3161 100%);color:#fff;position:relative}
+.fcc-header::before{
+  content:"";position:absolute;inset:0;pointer-events:none;opacity:.18;
+  background-image:
+    radial-gradient(circle at 20% 50%,#fff 0,transparent 35%),
+    radial-gradient(circle at 50% 30%,#fff 0,transparent 40%),
+    radial-gradient(circle at 80% 60%,#fff 0,transparent 40%);
+}
+.header-main{
+  max-width:1140px;margin:0 auto;padding:14px 24px;
+  display:grid;grid-template-columns:auto 1fr auto;gap:32px;align-items:center;
+  position:relative;z-index:1;
+}
+.brand{display:flex;align-items:center;gap:10px;color:#fff;text-decoration:none}
+.brand:hover{text-decoration:none}
+.brand-logo{height:54px;width:auto;display:block;flex:none}
+.brand-text{font-size:13px;line-height:1.15;letter-spacing:.3px;font-weight:600}
+.brand-text strong{display:inline;font-weight:700}
+
+.browse-tabs{display:flex;gap:48px;justify-content:center}
+.browse-tab{
+  color:#fff;text-decoration:none;text-align:center;font-size:12.5px;line-height:1.2;
+  font-style:normal;letter-spacing:.3px;padding:8px 4px 6px;position:relative;
+}
+.browse-tab em{font-style:italic;font-size:16px;letter-spacing:.4px;display:inline-block;margin-top:1px}
+.browse-tab .caret{
+  display:block;width:0;height:0;margin:6px auto 0;
+  border-left:10px solid transparent;border-right:10px solid transparent;
+  border-top:8px solid #cfe1ff;
+}
+.browse-tab:hover{text-decoration:none;color:#cfe1ff}
+
+.header-search{display:flex;align-items:center;background:#fff;border-radius:2px;padding:2px 4px 2px 10px;height:36px;width:260px;box-shadow:inset 0 0 0 1px #e6e6e6}
+.header-search input{border:0;outline:0;font-size:14px;flex:1;background:transparent;color:#333;padding:6px 4px}
+.header-search button{background:#f5a818;border:0;color:#1a4480;width:32px;height:32px;display:flex;align-items:center;justify-content:center;border-radius:2px}
+.header-search button:hover{background:#e0960d}
+
+.sub-nav{
+  background:#1a4480;position:relative;z-index:1;
+}
+.sub-nav .container, .fcc-header .sub-nav{padding:0}
+.sub-nav{
+  max-width:none;padding:0 24px;display:flex;justify-content:space-between;align-items:stretch;gap:0;
+  max-width:1140px;margin:0 auto;
+}
+.sub-nav a{
+  color:#fff;text-decoration:none;padding:14px 18px;font-size:14.5px;letter-spacing:.2px;
+  position:relative;flex:1;text-align:center;
+}
+.sub-nav a:hover{background:rgba(255,255,255,.08);text-decoration:none}
+.sub-nav a.active{font-weight:600}
+.sub-nav a.active::after{
+  content:"";position:absolute;left:14px;right:14px;bottom:-2px;height:3px;background:#f5a818;
+}
+
+/* ============== Breadcrumb ============== */
+.breadcrumb{padding:18px 0 6px}
+.breadcrumb a{color:#0073e6;font-size:14px}
+
+/* ============== Page Title ============== */
+.page-title{font-size:38px;font-weight:400;color:#1a4480;margin:6px 0 22px;letter-spacing:-.3px}
+
+/* ============== Year strip ============== */
+.year-strip{display:flex;align-items:stretch;margin-bottom:24px;max-width:680px}
+.year-arrow{
+  background:transparent;border:0;color:#1a4480;width:32px;font-size:18px;
+  display:flex;align-items:center;justify-content:center;
+}
+.year-arrow:hover{color:#0073e6}
+.year-tabs{display:flex;flex:1;background:#0073e6;border-radius:2px;overflow:hidden}
+.year-tab{
+  flex:1;background:#0073e6;color:#fff;border:0;padding:10px 8px;font-size:15px;letter-spacing:.2px;
+  border-right:1px solid rgba(255,255,255,.2);
+}
+.year-tab:last-child{border-right:0}
+.year-tab:hover{background:#0a8aff}
+.year-tab.active{background:#fff;color:#1a4480;font-weight:600;position:relative}
+.year-tab.active::after{
+  content:"";position:absolute;left:50%;bottom:-10px;transform:translateX(-50%);
+  width:0;height:0;border-left:8px solid transparent;border-right:8px solid transparent;border-top:10px solid #fff;
+}
+
+/* ============== Layout ============== */
+.layout{display:grid;grid-template-columns:1fr 250px;gap:48px;align-items:start;padding-bottom:48px}
+
+/* ============== Headline list ============== */
+.hl-list{list-style:none;padding:0;margin:0}
+.hl-item{padding:18px 0;border-bottom:1px solid #d8dde3}
+.hl-meta{color:#1a4480;font-size:14px;margin-bottom:4px}
+.hl-meta .hl-type{color:#1a4480}
+.hl-title{
+  font-size:18px;font-weight:400;line-height:1.35;margin:0;
+}
+.hl-title a{color:#0073e6;text-decoration:none}
+.hl-title a:hover{text-decoration:underline}
+.hl-related{margin-top:6px}
+.hl-related a{color:#0073e6;font-size:14px}
+
+/* ============== Pagination ============== */
+.pagination{display:flex;justify-content:center;gap:8px;margin:32px 0 8px;flex-wrap:wrap}
+.page-btn{
+  min-width:34px;height:34px;border-radius:50%;border:0;background:transparent;color:#1a4480;
+  font-size:15px;display:inline-flex;align-items:center;justify-content:center;padding:0 10px;
+}
+.page-btn:hover{background:#eef3fb}
+.page-btn.active{background:#f5a818;color:#1a4480;font-weight:700}
+.page-btn:disabled{color:#bcc4cc;cursor:default}
+.page-btn:disabled:hover{background:transparent}
+.page-dots{color:#1a4480;padding:0 4px;align-self:center}
+
+/* ============== Sidebar ============== */
+.sidebar{padding-top:60px}
+.filter-block{margin-bottom:22px}
+.filter-label{display:block;font-size:15px;color:#1a4480;font-weight:600;margin-bottom:8px}
+.filter-select{
+  width:100%;padding:8px 10px;border:1px solid #b9c4d0;background:#fff;font-size:15px;color:#1a4480;
+  border-radius:2px;
+}
+.check-list{list-style:none;padding:0;margin:0;max-height:280px;overflow-y:auto;border:1px solid #c5d2e2;padding:10px 12px;border-radius:2px;background:#fff}
+.check-list li{padding:4px 0;display:flex;align-items:center;gap:8px;font-size:14.5px;color:#1a4480}
+.check-list input[type=checkbox]{accent-color:#0073e6;width:16px;height:16px;flex:none}
+.check-list label{cursor:pointer;line-height:1.2}
+.apply-btn{
+  width:100%;background:#1a4480;color:#fff;border:0;padding:11px;font-size:15px;font-weight:600;
+  border-radius:2px;letter-spacing:.2px;
+}
+.apply-btn:hover{background:#0d3266}
+
+/* ============== Footer ============== */
+.fcc-footer{background:#fff;border-top:4px solid #1a4480;padding:38px 0 24px;margin-top:30px;color:#333}
+.footer-cols{display:grid;grid-template-columns:1.1fr 1fr 1fr 1fr;gap:36px;padding-bottom:28px}
+.footer-col p{margin:6px 0;font-size:14.5px;line-height:1.55}
+.footer-col .org{color:#1a4480;font-weight:600}
+.footer-col a{color:#0073e6}
+.footer-list{list-style:none;padding:0;margin:0}
+.footer-list li{margin:8px 0}
+.footer-list a{color:#0073e6;font-size:14.5px}
+.footer-col h4{color:#1a4480;font-size:15px;letter-spacing:.5px;margin:0 0 12px;font-weight:700}
+.social-row{display:flex;gap:12px;padding:20px 24px 8px}
+.social{display:inline-flex;width:34px;height:34px;align-items:center;justify-content:center}
+.footer-brand{display:flex;align-items:center;gap:18px;padding:22px 24px 6px;border-top:1px solid #e3e8ee;margin:12px auto 0;max-width:1140px}.footer-brand img{width:108px;height:108px;flex:none;display:block}.footer-brand-name{font-size:18px;color:#1a4480;font-weight:700;letter-spacing:.2px;line-height:1.4}
+
+/* ============== A11y FAB ============== */
+.a11y-fab{
+  position:fixed;right:14px;bottom:14px;width:44px;height:44px;border-radius:50%;
+  background:#2a9df4;border:0;display:flex;align-items:center;justify-content:center;
+  box-shadow:0 4px 10px rgba(0,0,0,.18);z-index:50;
+}
+.a11y-fab:hover{background:#0e7fd1}
+
+/* ============== Responsive ============== */
+@media (max-width: 900px){
+  .header-main{grid-template-columns:auto 1fr;row-gap:12px}
+  .browse-tabs{grid-column:1 / -1;gap:24px;justify-content:flex-start}
+  .header-search{grid-column:1 / -1;width:100%}
+  .layout{grid-template-columns:1fr;gap:24px}
+  .sidebar{padding-top:0}
+  .footer-cols{grid-template-columns:1fr 1fr}
+  .sub-nav{flex-wrap:wrap}
+  .sub-nav a{flex:1 1 33%;font-size:13px;padding:12px 8px}
+}
+@media (max-width: 560px){
+  .year-strip{font-size:13px}
+  .year-tab{padding:8px 4px;font-size:13px}
+  .footer-cols{grid-template-columns:1fr}
+  .page-title{font-size:28px}
+  .hl-title{font-size:16px}
+}
+
+/* ============== Official U.S. Gov Banner (usa-banner, matches fcc.gov) ============== */
+.usa-banner{background:#f0f0f0;color:#1b1b1b;font-family:"Source Sans Pro","Open Sans","Helvetica Neue",Arial,sans-serif;font-size:.87rem;line-height:1.4;border-bottom:1px solid #dcdcdc}
+.usa-banner__inner{max-width:1140px;margin:0 auto;padding:0 24px;min-height:40px;display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap}
+.usa-banner__header{display:flex;align-items:center;gap:9px;padding:6px 0}
+.usa-banner__header-flag{width:17px;height:auto;display:block;flex:none}
+.usa-banner__header-text{margin:0;font-size:.78rem;line-height:1.15;letter-spacing:.1px}
+.usa-banner__button{display:inline-flex;align-items:center;gap:6px;background:none;border:0;color:#1b1b1b;padding:6px 0;font-size:.78rem;cursor:pointer;letter-spacing:.1px;text-decoration:underline}
+.usa-banner__button:hover{color:#162e51}
+.usa-banner__button svg{transition:transform .15s ease;flex:none}
+.usa-banner__button[aria-expanded="true"] svg{transform:rotate(180deg)}
+.usa-banner__content[hidden]{display:none}
+.usa-banner__content{background:#f0f0f0;border-top:1px solid #e0e0e0;padding:4px 0 18px}
+.usa-banner__grid{max-width:1140px;margin:0 auto;padding:10px 24px 0;display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:24px 48px}
+.usa-banner__guidance{display:flex;gap:14px;align-items:flex-start}
+.usa-banner__icon{width:40px;height:40px;flex:none;margin-top:2px}
+.usa-banner__guidance-body p{margin:0;font-size:.9rem;line-height:1.5;color:#1b1b1b}
+.usa-banner__guidance-body strong{color:#111}
+.icon-lock-svg{vertical-align:middle}
+@media (max-width:700px){
+  .usa-banner__inner{justify-content:center}
+}

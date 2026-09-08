@@ -1,0 +1,62 @@
+
+
+FACT SHEET: FCC Updates Covered List to Include Foreign-Produced Advanced Robotic Devices and Power Inverters 
+Update Follows Determinations by Executive Branch Agencies That These Devices Threaten National Security
+   
+WASHINGTON, July 28, 2026—Today, the Federal Communications Commission updated its Covered List to include two new categories of devices—“advanced robotic devices” (defined as mobile robots, such as humanoids and quadrupeds) and, separately, connected power inverters produced in foreign countries.  The action follows determinations, for both robots and inverters, by a White House-convened Executive Branch interagency body with appropriate national security expertise, which determined that these foreign-made products, regardless of the nationality of origin, “pose unacceptable risks to the national security of the United States or the safety and security of United States persons.”
+
+In their determinations, national security agencies referenced, among other things, unacceptable risks, including that these devices could create supply chain vulnerabilities that could disrupt U.S. economic and national security and could create a cybersecurity risk that threatened American critical infrastructure.
+
+The determination included an exemption for advanced robotics devices and power inverters that the Department of War (DoW) or (in the case of power inverters) the Department of Homeland Security (DHS) have granted “Conditional Approval” after finding that such device or class of devices do not pose such unacceptable risks.  Producers of advanced robotics devices and power inverters are encouraged to submit an application for Conditional Approval using the guidance for advanced robotics devices and power inverters attached to the determination.  Applications should be submitted to conditional-approvals@fcc.gov.
+
+As outlined below, today’s action does not impact a consumer’s continued use of devices they previously acquired.  Nor does it prevent retailers from continuing to sell, import, or market relevant models approved previously through the FCC’s equipment authorization process.  By operation of the FCC’s Covered List rules, the restrictions imposed today apply to new device models.  It also does not impact purchase or use by the federal government at all. 
+
+Chairman Carr issued the following statement:
+
+“I welcome these Executive Branch national security determinations, and I am pleased that the FCC has now added foreign produced advanced robotics and power inverters to the FCC’s Covered List.  Following President Trump’s leadership, the FCC will continue to do our part to secure America’s critical supply chains and, with today’s action, the FCC is acting in lock step with our national security agencies to do just that.” 
+
+Additional Background:
+
+	•	The FCC’s Covered List is a list of communications equipment and services that are deemed to pose an unacceptable risk to the national security of the U.S. or the safety and security of U.S. persons.
+
+	•	Under the Secure and Trusted Communications Networks Act, the Commission can update the Covered List only at the direction of national security authorities.  In other words, the Commission cannot update this list on its own and is required to implement determinations that are made by our national security agency experts.
+
+	•	Equipment on the Covered List (“covered equipment”) is prohibited from getting FCC equipment authorization.  Most electronic devices require FCC equipment authorization prior to importation, marketing, or sale in the U.S.  Covered equipment is banned from receiving new equipment authorizations, preventing new devices from entering the U.S. market. 
+
+	•	The Cybersecurity and Infrastructure Security Agency encourages organizations to use the Covered List for risk management analysis in their regulatory compliance efforts.
+
+	•	In recent months, the FCC has taken similar action with regard to both Uncrewed Aircraft Systems (UAS) and UAS critical components, as well as consumer-grade routers. 
+
+The National Security Determinations:
+
+	•	The foreign-produced power inverter National Security Determination states:
+
+	•	“The lack of a secure U.S. supply chain for inverters and the continuous inflow of foreign-produced or controlled inverters and inverter components poses threats to U.S. economic and national security . . . Inverters’ remote connectivity introduces additional vulnerabilities which compound as inverter-based resources proliferate on the U.S. grid.  These vulnerabilities could enable foreign firms to turn off the inverters or use them to collect and exfiltrate data, facilitate remote access and surveillance by foreign government actors, or be otherwise exploited through a cyberattack.”
+
+	•	As a result of the threats described in the National Security Determination, the Executive Branch interagency body determined that power inverters produced in a foreign country pose the following unacceptable risks to the United States:  (1) “facilitating a supply chain vulnerability that could disrupt U.S. economic security, including sectors critical to national security”; and (2) “creat[ing] a cybersecurity risk that threatens the security of critical infrastructure and the safety of U.S. persons.”
+
+	•	The foreign-produced advanced robotic devices National Security Determination states:
+
+	•	“The networked capabilities of advanced robotic systems create extensive vulnerabilities and vectors for attacks that can manipulate the data and physical operation of the advanced robotic system.  Relying on foreign-produced advanced robotic devices presents unacceptable supply chain and cybersecurity vulnerabilities . . . Advanced robotic devices collect data that could be leveraged by malign actors to surveil Americans, enhance the capabilities of foreign intelligence services, or to remotely commandeer the robots.” 
+
+	•	As a result of the threats described in the National Security Determination, the Executive Branch interagency body determined that advanced robotic devices produced in foreign countries presented the following unacceptable risks:  (1) “posing a supply chain vulnerability that could disrupt U.S. economic and national security”; and (2) “creating a cybersecurity risk that threatens the security of critical infrastructure and thus the safety and security of U.S. persons.” 
+
+
+What does this mean?
+
+	•	New foreign-produced advanced robotic devices and power inverters are generally prohibited from receiving FCC authorization to be imported, marketed, or sold in the U.S. This update to the Covered List does not prohibit the import, sale, or use of any existing models of advanced robotic device and power inverters the FCC previously authorized.
+
+	•	This action does not affect any previously purchased devices.
+
+	•	This action does not affect sales to, or use by, the federal government or federal agencies.
+
+	•	Producers of advanced robotic devices and power inverters that receive Conditional Approval from DoW or DHS can continue to receive FCC equipment authorizations.  Interested applicants are encouraged to submit applications to conditional-approvals@fcc.gov.
+
+For more information, please see our FAQ page.
+
+
+###
+ Media Contact: MediaRelations@fcc.gov / (202) 418-0500
+@FCC / www.fcc.gov
+
+

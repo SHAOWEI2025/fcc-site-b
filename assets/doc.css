@@ -1,0 +1,79 @@
+/* Document detail page — 1:1 with fcc.gov/document/{id} */
+.doc-page{max-width:1100px;margin:0 auto;padding:24px 0 60px}
+.doc-page .container{width:100%}
+
+.doc-title{
+  font-size:34px;font-weight:400;color:#2b2b2b;line-height:1.2;
+  margin:6px 0 28px;letter-spacing:-.3px;
+}
+
+.doc-grid{
+  display:grid;grid-template-columns:1fr 280px;gap:48px;align-items:start;
+  padding:0 24px;
+}
+
+.doc-main{min-width:0}
+.doc-meta{
+  display:grid;grid-template-columns:120px 1fr;gap:6px 16px;
+  margin:0 0 28px;font-size:15px;
+}
+.doc-meta dt{font-weight:600;color:#2b2b2b;padding-top:2px}
+.doc-meta dd{margin:0;color:#2b2b2b;line-height:1.55}
+
+.files-h{font-size:22px;font-weight:400;color:#2b2b2b;margin:32px 0 14px}
+.files-list{list-style:disc;margin:0;padding-left:22px;font-size:15.5px}
+.files-list li{margin:8px 0;line-height:1.4}
+.files-list .files-label{color:#2b2b2b;margin-right:6px}
+.file-link{
+  display:inline-flex;align-items:center;gap:4px;
+  color:#0073e6;text-decoration:none;margin:0 8px 0 0;
+}
+.file-link:hover{text-decoration:underline}
+.file-link svg{vertical-align:middle;margin-right:2px}
+
+/* Dates card (right column) */
+.dates-card{
+  background:#fff;border:1px solid #e1e6ed;border-top:3px solid #f5a818;
+  border-radius:2px;padding:18px 20px;
+}
+.dates-card h2{font-size:17px;color:#2b2b2b;font-weight:400;margin:0 0 14px}
+.dates-card dl{display:grid;grid-template-columns:1fr;gap:10px;margin:0;font-size:14.5px}
+.dates-card dt{color:#2b2b2b;font-weight:600}
+.dates-card dd{margin:2px 0 8px;color:#2b2b2b}
+.dates-card .media-contact{font-size:13.5px;color:#2b2b2b;margin:14px 0 0;line-height:1.55;border-top:1px solid #eef1f4;padding-top:12px}
+.dates-card .media-contact strong{font-weight:600}
+
+/* Related Content card (right column) */
+.related-card{
+  background:#fff;border:1px solid #e1e6ed;border-top:3px solid #f5a818;
+  border-radius:2px;padding:18px 20px;margin-top:18px;
+}
+.related-card h2{font-size:17px;color:#2b2b2b;font-weight:400;margin:0 0 12px}
+.related-list{list-style:square;margin:0;padding-left:20px;color:#1a4480}
+.related-list li{margin:6px 0;font-size:14.5px;line-height:1.45}
+.related-list a{color:#1a4480;text-decoration:underline}
+.related-list a:hover{text-decoration:none}
+
+/* Full text body */
+.doc-body{
+  max-width:780px;margin:36px 24px 0;padding-top:24px;
+  border-top:1px solid #e1e6ed;
+}
+.body-p{font-size:16px;line-height:1.7;color:#2b2b2b;margin:0 0 16px}
+.body-subhead{font-size:16px;font-weight:600;color:#2b2b2b;margin:20px 0 10px}
+.body-quote{
+  font-size:16px;line-height:1.7;color:#2b2b2b;
+  border-left:4px solid #1a4480;background:#f7f9fc;
+  padding:14px 18px;margin:12px 0 18px;font-style:italic;
+}
+.body-contact{font-size:14.5px;color:#5a6b7d;margin:6px 0}
+.body-sep{border:0;border-top:1px solid #d8dde3;margin:20px 0}
+
+.back-link{margin:36px 0 0 24px;font-size:14.5px;padding-bottom:24px}
+
+@media (max-width: 800px){
+  .doc-grid{grid-template-columns:1fr;gap:24px}
+  .doc-title{font-size:26px}
+  .doc-meta{grid-template-columns:1fr;gap:2px 0}
+  .doc-meta dt{padding-top:14px}
+}

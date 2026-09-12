@@ -7,7 +7,16 @@
     <language>en-us</language>
     <lastBuildDate>Thu, 10 Sep 2026 14:00:00 +0000</lastBuildDate>
     <atom:link href="https://fcc.example.com/feed.xml" rel="self" type="application/rss+xml" />
-            <item>
+                <item>
+      <title>FCC Adds Foreign-Produced Power Inverters and Robots to Covered List</title>
+      <link>https://fcc.example.com/article/fcc-adds-foreign-power-inverters-robots.html</link>
+      <guid isPermaLink="true">https://fcc.example.com/article/fcc-adds-foreign-power-inverters-robots.html</guid>
+      <pubDate>Thu, 10 Sep 2026 12:00:00 +0000</pubDate>
+      <category>News Release</category>
+      <description>The FCC updated its Covered List to include foreign-produced advanced robotic devices and connected power inverters, following Executive Branch national security determinations that these products pose unacceptable risks.</description>
+      <source url="https://fcc.example.com/feed.xml">FCC Headlines Mirror</source>
+    </item>
+<item>
       <title>FCC to Recognize 2026 Chairman AAA Winners</title>
       <link>https://fcc.example.com/article/fcc-recognize-2026-chairman-aaa-winners.html</link>
       <guid isPermaLink="true">https://fcc.example.com/article/fcc-recognize-2026-chairman-aaa-winners.html</guid>
@@ -27,15 +36,6 @@
       <source url="https://fcc.example.com/feed.xml">FCC Headlines Mirror</source>
     </item>
 <item>
-      <title>FCC Adds Foreign-Produced Power Inverters and Robots to Covered List</title>
-      <link>https://fcc.example.com/article/fcc-adds-foreign-power-inverters-robots.html</link>
-      <guid isPermaLink="true">https://fcc.example.com/article/fcc-adds-foreign-power-inverters-robots.html</guid>
-      <pubDate>Tue, 28 Jul 2026 12:00:00 +0000</pubDate>
-      <category>News Release</category>
-      <description>Update Follows Determinations by Executive Branch Agencies That These Devices Threaten National Security</description>
-      <source url="https://fcc.example.com/feed.xml">FCC Headlines Mirror</source>
-    </item>
-    <item>
       <title>Federal Advisory Committee Act; Technological Advisory Council</title>
       <link>https://fcc.example.com/article/2026-18196.html</link>
       <guid isPermaLink="true">https://fcc.example.com/article/2026-18196.html</guid>
@@ -339,15 +339,6 @@
       <pubDate>Fri, 21 Aug 2026 12:00:00 +0000</pubDate>
       <category>Notice</category>
       <description></description>
-      <source url="https://fcc.example.com/feed.xml">FCC Headlines Mirror</source>
-    </item>
-    <item>
-      <title>FCC Announces Modification of Power Inverters on the Covered List</title>
-      <link>https://fcc.example.com/article/fcc-power-inverters-covered-list.html</link>
-      <guid isPermaLink="true">https://fcc.example.com/article/fcc-power-inverters-covered-list.html</guid>
-      <pubDate>Thu, 20 Aug 2026 12:00:00 +0000</pubDate>
-      <category>Public Notice</category>
-      <description>FCC 宣布对涵盖清单中部分电源逆变器（Power Inverters）条目进行变更。</description>
       <source url="https://fcc.example.com/feed.xml">FCC Headlines Mirror</source>
     </item>
     <item>

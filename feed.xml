@@ -5,13 +5,13 @@
     <link>https://fcc.example.com/</link>
     <description>Mirror of FCC news, orders, public notices, and Federal Register filings (mirror; not an official FCC site).</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 15 Sep 2026 14:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 16 Sep 2026 14:00:00 +0000</lastBuildDate>
     <atom:link href="https://fcc.example.com/feed.xml" rel="self" type="application/rss+xml" />
                 <item>
       <title>FCC Adds Foreign-Produced Power Inverters and Robots to Covered List</title>
       <link>https://fcc.example.com/article/fcc-adds-foreign-power-inverters-robots.html</link>
       <guid isPermaLink="true">https://fcc.example.com/article/fcc-adds-foreign-power-inverters-robots.html</guid>
-      <pubDate>Tue, 15 Sep 2026 12:00:00 +0000</pubDate>
+      <pubDate>Wed, 16 Sep 2026 12:00:00 +0000</pubDate>
       <category>News Release</category>
       <description>The FCC updated its Covered List to include foreign-produced advanced robotic devices and connected power inverters, following Executive Branch national security determinations that these products pose unacceptable risks.</description>
       <source url="https://fcc.example.com/feed.xml">FCC Headlines Mirror</source>
@@ -20,7 +20,7 @@
       <title>FCC to Recognize 2026 Chairman AAA Winners</title>
       <link>https://fcc.example.com/article/fcc-recognize-2026-chairman-aaa-winners.html</link>
       <guid isPermaLink="true">https://fcc.example.com/article/fcc-recognize-2026-chairman-aaa-winners.html</guid>
-      <pubDate>Tue, 15 Sep 2026 12:00:00 +0000</pubDate>
+      <pubDate>Wed, 16 Sep 2026 12:00:00 +0000</pubDate>
       <category>Public Notice</category>
       <description>The Federal Communications Commission (FCC or Commission) announces details for the Chairman's Awards for Advancement in Accessibility (Chairman's AAA) ceremony and an event celebrating the 16th anniversary of the Twenty-First Century Communications and Video Accessibility Act (CVAA).</description>
       <source url="https://fcc.example.com/feed.xml">FCC Headlines Mirror</source>
@@ -30,7 +30,7 @@
       <title>Gomez on FCC Campaign That Forced Interview Off Air</title>
       <link>https://fcc.example.com/article/gomez-on-fcc-campaign-that-forced-interview-off-air.html</link>
       <guid isPermaLink="true">https://fcc.example.com/article/gomez-on-fcc-campaign-that-forced-interview-off-air.html</guid>
-      <pubDate>Tue, 15 Sep 2026 12:00:00 +0000</pubDate>
+      <pubDate>Wed, 16 Sep 2026 12:00:00 +0000</pubDate>
       <category>News Release</category>
       <description>WASHINGTON—FCC Commissioner Anna M. Gomez issued the following statement after Jimmy Kimmel announced that his interview with a Senate candidate will not air on ABC due to the FCC's pressure campaign against ABC.</description>
       <source url="https://fcc.example.com/feed.xml">FCC Headlines Mirror</source>
